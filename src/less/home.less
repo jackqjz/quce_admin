@@ -1,0 +1,41 @@
+
+#home{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .left {
+        width:2.01rem;    
+    };
+    .right {
+        width:calc(100% - 2.01rem);
+        height:100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        .header{
+            width:100%;
+            height:0.5rem;
+            border-bottom: 2px solid #111;    
+        }
+        .router-content{
+            width:100%;
+            height:calc(100% - 0.5rem);  
+            background-color: antiquewhite;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            p{
+                width:100%;
+                height:3rem;
+                border: 1px solid red;
+            }
+        }
+    };
+
+
+    
+}
